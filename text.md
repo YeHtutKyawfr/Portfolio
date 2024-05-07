@@ -1,0 +1,1 @@
+https://platt.edu/blog/top-20-beautiful-websites/

@@ -1,11 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hello from my Portfolio</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-content">
+            <div class="hero-photo">
+                <img src="14.jpg" alt="yehtut" />
+            </div>
+            <div class="hero-text">
+                <h1>Ye Htut KYAW</h1>
+                <p>Health Informatic Specialist</p>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="about">
+        <div class="container">
+            <h2><span class="material-icons">person</span> About Me</h2>
+            <p>With a unique blend of expertise in pharmacy, international business, and computer science, I bring a
+                comprehensive perspective to the health domain. My educational foundation in pharmacy provided me with a
+                deep understanding of pharmaceuticals and patient care, while my eight years of experience in
+                international business honed my skills in strategic management and global market dynamics. This diverse
+                background, combined with my professional reconversion into computer science, allows me to innovate at
+                the intersection of technology and health. I am passionate about leveraging my multidisciplinary
+                knowledge to create cutting-edge solutions that enhance healthcare delivery and improve patient
+                outcomes.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2><span class="material-icons">school</span> Education</h2>
+            <div class="education-item">
+                <h3>Claude Bernard University Lyon 1, Bourg-en-Bresse, France</h3>
+                <p>Bachelor of Computer Science 2024</p>
+                <p>During my BUT informatique course, I honed my skills in a variety of essential areas including
+                    programming languages, data structures, and algorithms. My studies encompassed software engineering
+                    practices, database design, and computer systems architecture, providing me with a strong foundation
+                    in both theoretical and practical aspects of the field. Throughout my course, I applied my knowledge
+                    to real-world projects, developing software solutions, creating databases, and collaborating with
+                    peers. These experiences have equipped me with the technical proficiency and problem-solving skills
+                    necessary to excel in the world of technology.</p>
+            </div>
+            <div class="education-item">
+                <h3>University of Pharmacy, Mandalay, Myanmar</h3>
+                <p>Bachelor of Pharmacy 2014</p>
+                <p>
+                    My pharmacy course provided me with a strong foundation in pharmaceutical sciences, pharmacology,
+                    and clinical practice. I gained in-depth knowledge of drug interactions, pharmacokinetics, and
+                    therapeutic applications, enabling me to offer expert advice on medication management. Through
+                    hands-on experiences in patient care and healthcare settings, I developed proficiency in dispensing
+                    medications, counseling patients, and collaborating with healthcare professionals to optimize
+                    treatment plans. My education has prepared me to contribute effectively to patient well-being and
+                    healthcare outcomes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2><span class="material-icons">work</span> Professional Experience</h2>
+            <div class="experience-item">
+                <p>currently</p>
+                <h3>Apprentice full stack developer</h3>
+                <p>Carrier Montluel SCS, France</p>
+                <ul>
+                    <li>Rearchitecturing of ERP for cold-chain factory management to web version</li>
+                </ul>
+                <p>Technologies used:</p>
+                <ul>
+                    <li>Rust</li>
+                    <li>React</li>
+                    <li>Oracle</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Trade Advisor</h3>
+                <p>Business France</p>
+                <ul>
+                    <li>Business France is a French national organization responsible for the international development
+                        of French companies, international investment in France, and economic promotion of France. I was
+                        a trade advisor in charge of pharmaceutical companies.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Medical Representative</h3>
+                <p>Besin Healthcare</p>
+                <ul>
+                    <li>Belgium pharma company, I promoted gynaecological drugs</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <div class="container">
+            <h2><span class="material-icons">work_outline</span> Projects</h2>
+            <div class="project-item">
+                <h3>Netflix clone for video streaming</h3>
+                <p>Video streaming service for client and vendor sites</p>
+                <a href="#">Demo</a>
+                <a href="#">Source Code</a>
+            </div>
+            <!-- Add more project items as needed -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">skills</span> Skills</h2>
+            <div class="project-item">
+                <h3>Netflix clone for video streaming</h3>
+                <p>Video streaming service for client and vendor sites</p>
+                <a href="#">Demo</a>
+                <a href="#">Source Code</a>
+            </div>
+            <!-- Add more project items as needed -->
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <h2><span class="material-icons">contact_mail</span> Contact Me</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div style="text-align: center;"> <!-- Center align icons -->
+            <!-- Social media icons -->
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="linkedin.png" alt="LinkedIn" class="footer-icon">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="facebook.jpg" alt="facebook" class="footer-icon">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="tw.png" alt="Twitter" class="footer-icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="insta.jpg" alt="instagram" class="footer-icon">
+            </a>
+        </div>
+        <div style="text-align: center;"> <!-- Center-align copyright text -->
+            <p>&copy; 2024 Ye Htut KYAW</p>
+        </div>
+    </footer>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction()
+        {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+            {
+                mybutton.style.display = "block";
+            } else
+            {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction()
+        {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        } 
+    </script>
+
 </body>
+
 </html>
