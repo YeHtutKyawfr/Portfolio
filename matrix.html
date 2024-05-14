@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#education">Education</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header id="project1"></header>
+
+    <!-- Project Detail Section -->
+    <section id="project-detail">
+      <div class="container">
+        <h2>
+          <span class="material-icons">work_outline</span> Matrix application
+          for psychotherapeutic treatment
+        </h2>
+        <p>
+          Psychotherapeutic healing application by it point system and
+          gamification techinques developed using ReactJs, NodeJs
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div style="text-align: center">
+        <a href="https://www.linkedin.com" target="_blank">
+          <img src="linkedin.png" alt="LinkedIn" class="footer-icon" />
+        </a>
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="facebook.jpg" alt="facebook" class="footer-icon" />
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+          <img src="tw.png" alt="Twitter" class="footer-icon" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="insta.jpg" alt="instagram" class="footer-icon" />
+        </a>
+      </div>
+      <div style="text-align: center">
+        <!-- Center-align copyright text -->
+        <p>&copy; 2024 Ye Htut KYAW</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript to scroll to top -->
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Top</button>
+    <script>
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+    </script>
+  </body>
+</html>

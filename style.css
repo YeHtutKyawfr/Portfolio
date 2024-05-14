@@ -38,7 +38,6 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 nav ul li {
@@ -49,8 +48,8 @@ nav ul li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 20px; /* Decrease font size for smaller screens */
-    padding: 8px 12px; /* Adjust padding */
+    font-size: 25px;
+    padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -66,9 +65,44 @@ header#hero {
     background-size: cover;
     background-position: center;
     color: #fff;
-    padding: 80px 0; /* Adjust padding for smaller screens */
-    height: auto; /* Allow height to adjust based on content */
-    min-height: 400px; /* Minimum height */
+    padding: 100px 0;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header#project1 {
+    background-image: url('lavendar.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header#project2 {
+    background-image: url('lavendar.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header#project3 {
+    background-image: url('lavendar.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,8 +112,7 @@ header#hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%; /* Adjust width for smaller screens */
-    max-width: 1200px; /* Limit maximum width */
+    width: 80%;
     opacity: 0;
     transform: translateY(-20px);
     animation: fadeInAndSlideUp 1s forwards ease-in-out;
@@ -87,26 +120,24 @@ header#hero {
 
 .hero-photo img {
     border-radius: 10%;
-    width: 200px; /* Decrease width for smaller screens */
-    height: auto; /* Allow height to adjust based on content */
-    max-height: 250px; /* Limit maximum height */
+    width: 300px;
+    height: 350px;
     object-fit: cover;
-    margin-right: 20px; /* Decrease margin for smaller screens */
+    margin-right: 40px;
 }
 
 .hero-text {
-    text-align: center; /* Center align text for smaller screens */
+    text-align: right;
 }
 
 .hero-text h1 {
-    font-size: 36px; /* Decrease font size for smaller screens */
+    font-size: 48px;
     margin-bottom: 10px;
 }
 
 .hero-text p {
-    font-size: 18px; /* Decrease font size for smaller screens */
+    font-size: 24px;
 }
-
 
 @keyframes fadeInAndSlideUp {
     from {
@@ -135,6 +166,7 @@ section p {
 }
 
 .education-item,
+.project-item,
 .experience-item {
     margin-bottom: 20px;
     border-bottom: 1px solid #e0e0e0;
@@ -142,6 +174,7 @@ section p {
 }
 
 .education-item h3,
+.project-item h3,
 .experience-item h3 {
     font-size: 24px;
     color: #6a0dad;
@@ -267,3 +300,4 @@ footer a img.footer-icon:hover {
         font-size: 20px;
     }
 }
+
