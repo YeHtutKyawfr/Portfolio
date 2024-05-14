@@ -73,7 +73,7 @@ header#hero {
 }
 
 header#project1 {
-    background-image: url('lavendar.jpg');
+    background-image: url('restos.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -85,7 +85,7 @@ header#project1 {
 }
 
 header#project2 {
-    background-image: url('lavendar.jpg');
+    background-image: url('restos.png');
     background-size: cover;
     background-position: center;
     color: #fff;
